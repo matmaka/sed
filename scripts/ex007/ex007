@@ -1,0 +1,7 @@
+#!/usr/bin/bash 
+
+# this works
+sed -i'bkp.*' 's/2/two/' b1.txt
+
+# this doesn't
+sed -ibkp.* 's/2/two/' b1.txt

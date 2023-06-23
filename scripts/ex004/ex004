@@ -1,0 +1,3 @@
+#!/usr/bin/bash 
+
+sed -i.orig s/in/an/g $1

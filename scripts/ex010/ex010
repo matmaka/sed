@@ -1,0 +1,4 @@
+#!/usr/bin/sed -nf
+
+# are or is -> add not after one of them
+4,$ s/\(\(are\)\|\(is\)\)/\1 not/g p

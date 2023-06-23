@@ -1,0 +1,5 @@
+#!/usr/bin/sed -f
+
+N
+N
+s/\n/-/g

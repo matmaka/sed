@@ -1,0 +1,9 @@
+#!/usr/bin/bash 
+
+year=2019
+fileName="copyright"
+
+# sed -i'2018_*.bkp' '/copyright/ s/[0-9][0-9]*/2019/' $1
+
+sed -i.bkp '/copyright/ s/[0-9][0-9]*/'$year'/' $1 && 
+  mv "./$fileName.txt.bkp" "./$(($year - 1))_$fileName.txt.bkp"

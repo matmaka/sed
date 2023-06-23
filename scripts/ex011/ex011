@@ -1,0 +1,8 @@
+#!/usr/bin/sed -nf
+
+n
+p
+n
+n
+p
+n

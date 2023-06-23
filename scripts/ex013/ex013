@@ -1,0 +1,9 @@
+#!/usr/bin/sed -nf
+
+# this works
+/good/ n
+/is/ p
+
+# but this doesn't
+# /is/ p
+# /good/ n

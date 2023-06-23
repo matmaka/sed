@@ -1,0 +1,3 @@
+#!/usr/bin/sed -nf
+
+4,7p
